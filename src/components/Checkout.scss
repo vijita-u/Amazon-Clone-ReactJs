@@ -1,0 +1,37 @@
+@use "../scss/utils" as u;
+
+.checkout {
+	padding: 1.25rem;
+	background-color: var(--white);
+	width: 100%;
+	height: max-content;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+
+	@include u.breakpoint-down(xsmall) {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__ad {
+		width: 100%;
+		margin-bottom: 0.625rem;
+	}
+
+	&__title {
+		margin-right: 0.625rem;
+		padding-block: 1.25rem;
+		border-bottom: 1px solid lightgray;
+
+		@include u.breakpoint-down(xxsmall) {
+			font-size: 1.25rem;
+		}
+	}
+
+	h3 {
+		@include u.breakpoint-down(mid-xsmall) {
+			font-size: 1rem;
+			word-break: break-all;
+		}
+	}
+}

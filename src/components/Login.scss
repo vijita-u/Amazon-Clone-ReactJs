@@ -1,0 +1,69 @@
+@use "../scss/utils" as u;
+
+.login {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	background-color: var(--white);
+
+	&__logo {
+		object-fit: contain;
+		margin: 1.25rem auto;
+		width: 6.25rem;
+	}
+
+	&__container {
+		width: 18.75rem;
+		height: fit-content;
+		display: flex;
+		flex-direction: column;
+		border-radius: 0.3125rem;
+		border: 1px solid lightgray;
+		padding: 1.25rem;
+
+		@include u.breakpoint-down(mid-xsmall) {
+			width: 14.375rem;
+		}
+
+		h1 {
+			font-weight: 500;
+			margin-bottom: 1.25rem;
+
+			@include u.breakpoint-down(mid-xsmall) {
+				font-size: 1.5rem;
+			}
+		}
+
+		form {
+			h5 {
+				margin-bottom: 0.3125rem;
+			}
+
+			input {
+				height: 1.875rem;
+				margin-bottom: 0.625rem;
+				background-color: var(--white);
+				width: 98%;
+			}
+		}
+
+		p {
+			margin-top: 0.9375rem;
+			font-size: 0.75rem;
+		}
+	}
+
+	&__signInButton,
+	&__registerButton {
+		border-radius: 2px;
+		width: 100%;
+		height: 1.875rem;
+		margin-top: 0.625rem;
+	}
+
+	&__registerButton {
+		background-color: lightgray;
+		border-color: darkgray;
+	}
+}

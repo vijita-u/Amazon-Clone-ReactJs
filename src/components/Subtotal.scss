@@ -1,0 +1,29 @@
+.subtotal {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	width: 100%;
+	height: fit-content;
+	padding: 1.25rem;
+	background-color: var(--lightest-gray);
+	border: 1px solid var(--light-gray);
+	border-radius: 0.1875rem;
+	margin-left: 0.625rem;
+
+	&__gift {
+		display: flex;
+		align-items: center;
+		padding-block: 0.625rem;
+
+		input[type="checkbox"] {
+			margin-right: 0.3125rem;
+		}
+	}
+
+	button {
+		border-radius: 0.125rem;
+		width: 100%;
+		min-height: 1.875rem;
+	}
+}

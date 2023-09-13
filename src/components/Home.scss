@@ -1,0 +1,22 @@
+@use "../scss/utils" as u;
+
+.home {
+	display: flex;
+	justify-content: center;
+	margin-inline: auto;
+	max-width: 93.75rem;
+
+	&__container {
+		width: 100%;
+	}
+
+	&__row {
+		display: flex;
+		z-index: 1;
+		margin-inline: 0.3125rem;
+
+		@include u.breakpoint-down(small) {
+			flex-wrap: wrap;
+		}
+	}
+}

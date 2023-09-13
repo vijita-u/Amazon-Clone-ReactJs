@@ -1,0 +1,37 @@
+@use "../scss/utils" as u;
+
+.checkoutProduct {
+	display: flex;
+	margin-block: 2.5rem;
+
+	&__info {
+		padding-left: 1.25rem;
+
+		@include u.breakpoint-down(mid-xsmall) {
+			padding-left: 0.625rem;
+		}
+
+		.removeButton {
+			margin-top: 0.625rem;
+			padding: 0.125rem 0.3125rem;
+		}
+	}
+
+	&__title {
+		font-size: 1.0625rem;
+		font-weight: 800;
+
+		@include u.breakpoint-down(mid-xsmall) {
+			font-size: 0.875rem;
+		}
+	}
+
+	&__image {
+		object-fit: contain;
+		width: 9.375rem;
+
+		@include u.breakpoint-down(mid-xsmall) {
+			width: 6.25rem;
+		}
+	}
+}

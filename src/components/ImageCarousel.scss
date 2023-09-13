@@ -1,0 +1,24 @@
+@use "../scss/utils" as u;
+
+.imageCarousel {
+	position: relative;
+	width: 100%;
+	max-height: 25rem;
+	z-index: -1;
+	margin-bottom: -9.375rem;
+
+	@include u.breakpoint-down(small) {
+		margin-bottom: -6.25rem;
+	}
+
+	.slick-slide img {
+		object-fit: contain;
+		width: 100%;
+		mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+	}
+
+	.slick-arrow.slick-next,
+	.slick-arrow.slick-prev {
+		display: none !important;
+	}
+}

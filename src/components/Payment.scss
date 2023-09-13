@@ -1,0 +1,87 @@
+@use "../scss/utils" as u;
+
+.payment {
+	background-color: var(--white);
+	&__container {
+		h1 {
+			text-align: center;
+			padding: 0.625rem;
+			font-weight: 400;
+			background-color: var(--amazon-gray);
+			border-bottom: 1px solid lightgray;
+
+			@include u.breakpoint-down(mid-xsmall) {
+				font-size: 1.5rem;
+			}
+		}
+	}
+
+	&__section {
+		display: flex;
+		gap: 1rem;
+		padding: 1.25rem;
+		margin-inline: 1.25rem;
+		border-bottom: 1px solid lightgray;
+
+		@include u.breakpoint-down(small) {
+			flex-direction: column;
+			gap: unset;
+		}
+
+		@include u.breakpoint-down(mid-xsmall) {
+			margin-inline: 0.625rem;
+			padding-inline: unset;
+		}
+	}
+
+	&__title {
+		flex: 0.2;
+
+		h3 {
+			@include u.breakpoint-down(mid-xsmall) {
+				font-size: 1rem;
+			}
+		}
+	}
+
+	&__address,
+	&__items,
+	&__details {
+		flex: 0.8;
+	}
+
+	&__address {
+		p {
+			@include u.breakpoint-down(mid-xsmall) {
+				font-size: 0.875rem;
+			}
+		}
+	}
+
+	&__details {
+		form {
+			max-width: 25rem;
+			display: flex;
+			flex-direction: column;
+			gap: 0.8rem;
+		}
+	}
+
+	&__priceContainer {
+		display: flex;
+		flex-direction: column;
+		gap: 0.8rem;
+	}
+
+	button,
+	button:disabled {
+		padding: 0.125rem 0.4375rem;
+		height: 1.875rem;
+	}
+
+	button:disabled {
+		background-color: var(--lightest-gray);
+		border-color: var(--light-gray);
+		color: lightgray;
+	}
+}
