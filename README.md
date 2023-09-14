@@ -108,7 +108,7 @@ To deploy the project
 
 
 ## License
-This project is open-source and available under the [MIT License]().
+This project is open-source and available under the [MIT License](https://github.com/vijita-u/Amazon-Clone-ReactJs/blob/main/LICENSE).
 
 
 ## Contact
