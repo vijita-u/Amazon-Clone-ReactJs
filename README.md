@@ -26,8 +26,8 @@ This project is a full-stack Amazon clone web application built with cutting-edg
 ```plaintext
 - /src
   - /axios
-    - axios.js```
-
+    - axios.js
+```
 ## Getting Started
 
 ### Installation
