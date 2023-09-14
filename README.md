@@ -17,9 +17,9 @@ This project is a full-stack Amazon clone web application built with cutting-edg
 6. React-Slick Carousel: The React-Slick carousel enriches the user interface, closely resembling Amazon's design.
 
 ### Backend
-1. Firebase Cloud Functions: Firebase Cloud Functions are leveraged for implementing Stripe payments and handling order processing.
-2. Firebase Firestore: Firestore, a real-time NoSQL database, is used to keep track of user orders, providing real-time updates and a responsive shopping experience.
-3. Express.js API: Express.js is employed to set up an API for payment processing, receiving payment intents from Stripe, and ensuring secure transactions.
+1. Firebase Cloud Functions: Leveraged for implementing Stripe payments and handling order processing.
+2. Firebase Firestore: A real-time NoSQL database is used to keep track of user orders, providing real-time updates and a responsive shopping experience.
+3. Express.js API: Employed to set up an API for payment processing, receiving payment intents from Stripe, and ensuring secure transactions.
 
 ## Project Structure
 
