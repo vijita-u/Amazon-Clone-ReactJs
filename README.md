@@ -94,7 +94,7 @@ To deploy the project
 - [Firebase](https://firebase.google.com/) for real-time database, authentication, and hosting.
 
 ## License
-This project is open-source and available under the [MIT License].
+This project is open-source and available under the [MIT License]().
 
 ## Contact
 - [My GitHub Profile](https://github.com/vijita-u)
