@@ -23,50 +23,10 @@ This project is a full-stack Amazon clone web application built with cutting-edg
 
 ## Project Structure
 
-
-  <code>
-  <ul>
-    <li>/src</li>
-    <ul>
-      <li>/axios</li>
-      <ul>
-        <li>axios.js</li>
-      </ul>
-      </ul>
-      <li>/components</li>
-      <ul>
-        <li>App.js</li>
-        <li>Header.js</li>
-        <li>...</li>
-      </ul>
-      <li>/firebase</li>
-      <ul>
-        <li>firebaseConfig.js</li>
-      </ul>
-      <li>/react-context-api</li>
-      <ul>
-        <li>reducer.js</li>
-        <li>StateProvider.js</li>
-      </ul>
-      <li>/scss</li>
-      <ul>
-        <li>/utils</li>
-        <ul>
-          <li>...</li>
-        </ul>
-        <li>styles.scss</li>
-      </ul>
-      <li>index.js</li>
-      <li>index.scss</li>
-    </ul>
-    <li>/functions</li>
-    <ul>
-      <li>index.js</li>
-    </ul>
-    <li>...</li>
-  </ul>
-
-</code>
+```plaintext
+- /src
+  - /axios
+    - axios.js
 
 ## Getting Started
 
