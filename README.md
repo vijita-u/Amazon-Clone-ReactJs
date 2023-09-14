@@ -51,15 +51,18 @@ This project is a full-stack Amazon clone web application built with cutting-edg
 ### Installation
 1. Clone the repository
    ```bash
-     git clone https://github.com/vijita-u/Amazon-Clone-ReactJs.git```
+     git clone https://github.com/vijita-u/Amazon-Clone-ReactJs.git
+   ```
 2. Install dependencies using npm:
    ```bash
-     npm install```
+     npm install
+   ```
 
 ### Usage
 1. Start the development server:
    ```bash
-     npm start```
+     npm start
+   ```
 2. Access the web application through your browser.
 3. Browse products, add items to your cart, and proceed to checkout with Stripe payment processing (note that no actual payments are processed).
 
@@ -69,16 +72,20 @@ To deploy the project
 1. Create a Firebase project and configure Firebase settings in **/src/firebase/firebase.js**.
 2. Login to firebase through command line
    ```bash
-     firebase login```
+     firebase login
+   ```
 3. Initialize firebase project
    ```bash
-     firebase init```
+     firebase init
+   ```
 4. Build the project:
    ```bash
-     npm run build```
+     npm run build
+   ```
 5. Deploy to firebase:
    ```bash
-     firebase deploy```
+     firebase deploy
+   ```
 
 ## Credits
 
