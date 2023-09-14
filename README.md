@@ -27,6 +27,24 @@ This project is a full-stack Amazon clone web application built with cutting-edg
 - /src
   - /axios
     - axios.js
+  - /components
+    - App.js
+    - Header.js
+    - ...
+  - /firebase
+    - firebaseConfig.js
+  - /react-context-api
+    - reducer.js
+    - StateProvider.js
+  - /scss
+    - /utils
+      - ...
+    - styles.scss
+  - index.js
+  - index.scss
+  - ...
+- /functions
+  - index.js
 ```
 ## Getting Started
 
