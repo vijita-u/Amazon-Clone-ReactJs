@@ -10,20 +10,25 @@
 ## Overview
 This project is a full-stack Amazon clone web application built with cutting-edge technologies to replicate the core functionalities of the original Amazon platform. It demonstrates expertise in various technologies, including React.js for the frontend, Stripe for secure payment processing, React Context API for efficient state management, Firebase Cloud Functions for handling Stripe payments, Firebase Firestore for real-time database management, Firebase for user authentication, Sass for styling, React-Slick for a dynamic carousel, and responsive design for cross-device compatibility. Please note that this clone is for educational purposes only and does not process actual payments.
 
-
+## Technologies Used
+1. ReactJS
+2. Firebase (Authentication, Firestore and Cloud Functions)
+3. React Context API (State Management)
+4. Sass
+5. Material UI
+6. StripeJS
 
 ## Project Features
 
 ### Frontend
-1. ReactJs: The project leverages React.js for the frontend, demonstrating proficiency in building interactive user interfaces.
-2. Stripe Payment Processing: Efficient payment processing is integrated with Stripe, offering a seamless checkout experience which replicates an actual payment functionality.
-3. React Context API: The application efficiently manages state using the React Context API, ensuring a responsive and intuitive user experience.
-4. Firebase Authentication: Firebase is employed for user authentication, providing robust and secure login and registration functionalities.
-5. Sass Styling: Styling is organized and modular with Sass, enhancing maintainability and scalability.
-6. React-Slick Carousel: The React-Slick carousel enriches the user interface, closely resembling Amazon's design.
+1. **ReactJs & Material UI**: The project leverages React.js and Material UI for the frontend to closely resemble the actual amazon.
+2. **Stripe Payment Processing**: Payment processing is integrated with Stripe, offering a seamless checkout experience which replicates an actual payment functionality.
+3. **React Context API**: Used to efficiently manage state of user and cart information.
+4. **Firebase Authentication**: Employed for user authentication, providing robust and secure login and registration functionalities.
+5. **Sass Styling**: Styling is organized and modular with Sass, enhancing maintainability and scalability.
 
 ### Backend
-1. Firebase Cloud Functions: Leveraged for implementing Stripe payments and handling order processing.
+1. **Firebase Cloud Functions**: Leveraged for implementing Stripe payments and handling order processing.
 2. Firebase Firestore: A real-time NoSQL database is used to keep track of user orders, providing real-time updates and a responsive shopping experience.
 3. Express.js API: Employed to set up an API for payment processing, receiving payment intents from Stripe, and ensuring secure transactions.
 
