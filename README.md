@@ -12,7 +12,7 @@ This project is a full-stack web application built with cutting-edge technologie
 
 ## Technologies Used
 1. ReactJS
-2. Firebase (Authentication, Firestore and Cloud Functions)
+2. Firebase (User Authentication, Firestore and Cloud Functions)
 3. Axios
 4. React Context API (State Management)
 5. Sass
