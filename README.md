@@ -118,8 +118,6 @@ This project is open-source and available under the [MIT License](https://github
 
 
 ## Contact
-- [My GitHub Profile](https://github.com/vijita-u)
+- [Email me](mailto:udayvijita3009@gmail.com?subject=Github%20Message)
 
-- [My Email ID](mailto:udayvijita3009@gmail.com?subject=[Github]%20Source%20Han%20Sans)
-
-- [My LinkedIn Profile](https://www.linkedin.com/in/vijita-uday/)
+- [Let's connect on LinkedIn](https://www.linkedin.com/in/vijita-uday/)
