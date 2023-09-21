@@ -8,7 +8,7 @@
 ## Live Link : [Amazon Clone Live Link](https://clone-using-react-js-c2ec1.web.app/)
 
 ## Overview
-This project is a full-stack Amazon clone web application built with cutting-edge technologies to replicate the core functionalities of the original Amazon platform. It demonstrates knowledge in various technologies, including React.js for the frontend, Stripe for secure payment processing, React Context API for efficient state management, Firebase Cloud Functions for handling Stripe payments, Firebase Firestore for real-time database management, Firebase for user authentication, Sass for styling, React-Slick for a dynamic carousel, and responsive design for cross-device compatibility. Please note that this clone is for educational purposes only and does not process actual payments.
+This project is a full-stack web application built with cutting-edge technologies to replicate the core functionalities of the original Amazon platform. It demonstrates knowledge in various technologies, including React.js for the frontend, Stripe for secure payment processing, React Context API for efficient state management, Firebase Cloud Functions for handling Stripe payments, Firebase Firestore for real-time database management, Firebase for user authentication, Sass for styling, React-Slick for a dynamic carousel, and responsive design for cross-device compatibility. Please note that this clone is for educational purposes only and does not process actual payments.
 
 ## Technologies Used
 1. ReactJS
@@ -29,8 +29,8 @@ This project is a full-stack Amazon clone web application built with cutting-edg
 
 ### Backend
 1. **Firebase Cloud Functions**: Leveraged for implementing Stripe payments and handling order processing.
-2. Firebase Firestore: A real-time NoSQL database is used to keep track of user orders, providing real-time updates and a responsive shopping experience.
-3. Express.js API: Employed to set up an API for payment processing, receiving payment intents from Stripe, and ensuring secure transactions.
+2. **Firebase Firestore**: A real-time NoSQL database is used to keep track of user orders, providing real-time updates and a responsive shopping experience.
+3. **Axios and Express.js**: Employed to set up an API for payment processing, receiving payment intents from Stripe, and ensuring secure transactions.
 
 
 
@@ -121,4 +121,4 @@ This project is open-source and available under the [MIT License](https://github
 
 - [My Email ID](udayvijita3009@gmail.com)
 
-- [My LinkedIn Profile]()
+- [My LinkedIn Profile](https://www.linkedin.com/in/vijita-uday/)
