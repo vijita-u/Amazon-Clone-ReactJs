@@ -8,7 +8,7 @@
 ## Live Link : [Amazon Clone Live Link](https://clone-using-react-js-c2ec1.web.app/)
 
 ## Overview
-This project is a full-stack Amazon clone web application built with cutting-edge technologies to replicate the core functionalities of the original Amazon platform. It demonstrates expertise in various technologies, including React.js for the frontend, Stripe for secure payment processing, React Context API for efficient state management, Firebase Cloud Functions for handling Stripe payments, Firebase Firestore for real-time database management, Firebase for user authentication, Sass for styling, React-Slick for a dynamic carousel, and responsive design for cross-device compatibility. Please note that this clone is for educational purposes only and does not process actual payments.
+This project is a full-stack Amazon clone web application built with cutting-edge technologies to replicate the core functionalities of the original Amazon platform. It demonstrates knowledge in various technologies, including React.js for the frontend, Stripe for secure payment processing, React Context API for efficient state management, Firebase Cloud Functions for handling Stripe payments, Firebase Firestore for real-time database management, Firebase for user authentication, Sass for styling, React-Slick for a dynamic carousel, and responsive design for cross-device compatibility. Please note that this clone is for educational purposes only and does not process actual payments.
 
 ## Technologies Used
 1. ReactJS
