@@ -13,10 +13,11 @@ This project is a full-stack web application built with cutting-edge technologie
 ## Technologies Used
 1. ReactJS
 2. Firebase (Authentication, Firestore and Cloud Functions)
-3. React Context API (State Management)
-4. Sass
-5. Material UI
-6. StripeJS
+3. Axios
+4. React Context API (State Management)
+5. Sass
+6. Material UI
+7. StripeJS
 
 ## Project Features
 
